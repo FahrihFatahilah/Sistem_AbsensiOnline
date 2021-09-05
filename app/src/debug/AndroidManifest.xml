@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity android:name="com.sistemabsensi.online.SplashScreen"></activity>
+        <activity
+            android:name="com.sistemabsensi.online.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.MyApplication.NoActionBar"></activity>
+        <activity
+            android:name="com.sistemabsensi.online.UtamaActivity"
+            android:label="@string/title_activity_utama"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name="com.sistemabsensi.online.MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+    </application>
+
+</manifest>

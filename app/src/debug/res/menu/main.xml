@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_absensi"
+            android:icon="@drawable/absensi"
+            android:title="Absensi" />
+        <item
+            android:id="@+id/riwayat"
+            android:icon="@drawable/riwayat"
+            android:title="Riwayat Absensi" />
+
+    </group>
+
+    <item android:title="Akun">
+        <menu>
+
+            <item
+                android:id="@+id/nav_akun"
+                android:icon="@drawable/akun"
+                android:title="Pengaturan Akun" />
+        </menu>
+    </item>
+
+</menu>
